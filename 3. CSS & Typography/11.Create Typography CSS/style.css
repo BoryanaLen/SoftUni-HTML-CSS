@@ -1,0 +1,41 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+blockquote{
+    border-left:1px solid rgb(221,221,221);
+    font-style: italic;
+}
+ul.square{
+    list-style-type: square;
+}
+ul.disc{
+    list-style-type: disc;
+}
+ul.circle{
+    list-style-type: circle ;
+}
+table {
+    width: 100%;
+    border-spacing: 0px;
+}
+th {
+    background-color: #CCCCCC;
+    border: none;
+    padding: 8px;
+} 
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #F1F1F1;
+}
+#right{
+    text-align: right;
+}
