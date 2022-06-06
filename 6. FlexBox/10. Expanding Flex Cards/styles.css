@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+section.container{
+    display: flex;
+    align-self: center;
+    gap: 20px;
+}
+img{
+    width: 100px;
+    height: 200px;
+}
+#img-big{
+    width: 300px;
+}
