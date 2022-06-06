@@ -1,0 +1,20 @@
+body{
+    width: 800px;
+    align-items: center;
+}
+
+main{
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+}
+img.new{
+    position: relative;
+    top: -200px;
+    right: 150px;
+}
+img.cup{
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
