@@ -1,0 +1,63 @@
+body{
+    width: 1500px;
+}
+section{
+    width: 100%;
+    margin-bottom: 50px;
+}
+header{
+    margin-bottom: 50px;
+}
+header h1{
+    color: rgb(139, 18, 129);
+    display: inline;
+}
+header nav{
+    display: inline;
+}
+header nav ul {
+    list-style-type: none;
+    display: inline;
+}
+header nav ul li{
+    display: inline;
+}
+header nav ul li a{
+    text-decoration: none;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+}
+.articles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 100%;
+}
+
+.team article{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+img{
+    width: 80%;
+    margin: 0 auto;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+}
+.test article{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+
+@media all and (max-width: 1024px){
+    .team{
+        flex: 0 1 50%;
+    }
+}

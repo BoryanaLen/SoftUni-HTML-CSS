@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+table{
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+thead{
+    background-color: rgb(51, 51, 51);
+}
+tbody tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+.header-col{
+    color: white !important; 
+}
+
+@media all and (max-width: 767px){
+   tr{
+       display: flex;
+       flex-direction: column;
+   }
+}
